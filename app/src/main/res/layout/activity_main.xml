@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:baselineAligned="false"
+
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="1 éme note"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="#00BCD4"
+        android:ems="10"
+        android:hint="2 éme note"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/montant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="#FFB300"
+        android:ems="10"
+        android:hint="3 éme note"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Calculer" />
+
+</LinearLayout>
