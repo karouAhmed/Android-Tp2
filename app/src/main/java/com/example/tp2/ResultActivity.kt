@@ -20,7 +20,7 @@ class ResultActivity: AppCompatActivity()  {
         sendSms.setOnClickListener {
             val intent = Intent(Intent.ACTION_MAIN)
             intent.addCategory(Intent.CATEGORY_APP_MESSAGING)
-            intent.putExtra("sms_body", "message");
+            intent.putExtra("sms_body", message);
             startActivity(intent)
         }
     }
